@@ -1,0 +1,57 @@
+nav {
+	position:fixed;
+	background:none;
+	z-index:10000;
+	width:100%;
+	font-size:20px;
+	transition: all 0.5s;
+}
+
+nav.navScroll {
+	background:rgba(0,0,0,0.7);
+	font-size:14px;
+	transition: all 0.5s;
+	color: #fff;
+}
+
+img.logo {
+	float:left;
+	display:none;
+	transition: all 0.5s;
+}
+
+img.logoScroll {
+	display:inline;
+	width:50px;
+	padding:5px;
+	transition:all 0.5s;
+}
+
+div.menu {
+	text-align:center;
+}
+
+div.menuScroll {
+	float:right;
+}
+
+li.nav {
+	display:inline;
+	text-decoration:none;
+	padding-left:15px;
+}
+
+	li.nav a {
+		list-style-type: none;
+		text-decoration:none;
+		color:#fff;
+		text-shadow:0.5px 0 0 rgba(255,255,255,0.5);
+	}
+
+	li.nav a:hover {
+		color: #F0C0A8;
+	}
+
+.navScroll a.selected {
+	color: #F0C0A8;
+}

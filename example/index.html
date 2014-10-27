@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>prettySticky</title>
+	<link rel="stylesheet" href="css/prettySticky.css" type="text/css">
+	<link rel="stylesheet" href="css/style.css" type="text/css">
+	<link href='http://fonts.googleapis.com/css?family=Lato:100,300,400' rel='stylesheet' type='text/css'>
+</head>
+<body>
+	<nav>
+		<div class="container">
+			<div>
+				<a href="#top"><img src="images/prettySticky_logoSmall.png" alt="Sticky Nav Bar Logo" class="logo"></a>
+			</div>
+			<div class="menu">
+				<ul class="nav">
+					<li class="nav"><a href="#download">Download</a></li>
+					<li class="nav"><a href="#setup">Setup</a></li>
+					<li class="nav"><a href="#markup">HTML Markup</a></li>
+					<li class="nav"><a href="#css">CSS</a></li>
+					<li class="nav"><a href="#contact">Contact</a></li>
+				</ul>
+			</div>
+		</div>
+	</nav>
+	<header id="top">
+		<div class="container">
+			<img src="images/prettySticky_logoSmall.png" alt="Pretty Sticky Logo">
+			<div class="headline">
+				<h1>Sticky navigation jQuery plugin with smart anchor link highlighting and logo incorporated</h1>
+			</div>
+		</div>
+	</header>
+	<section class="download" id="download">
+		<div class="container">
+			<h2>1. Download</h2>
+			<p>Download prettySticky.js and prettySticky.css. </p>
+			<a href="">Download Here</a>
+		</div>
+	</section>
+
+	<section class="setup" id="setup">
+		<div class="container">
+			<h2>2. Setup</h2>
+			<p>Include reference to prettySticky.css within your head tags.</p>
+			<p>Include reference to the jQuery library, jQuery plugin smooth-scroll.js(optional) and prettySticky.js at the bottom of the HTML page before the body tag, as seen below.</p>
+			<img src="images/setup.jpg" alt="link to jQuery from index.html">
+			<p>For details on smooth-scroll, <a href="https://github.com/kswedberg/jquery-smooth-scroll">click here</a></p>
+		</div>
+	</section>
+
+	<section class="markup" id="markup">
+		<div class="container">
+			<h2>3. HTML Markup</h2>
+			<p>To properly use prettySticky, setup the usual HTML markup for your navigation. Add as many list items as your page requires. In order for prettySticky.js to work, you must add class="nav" to the li elements and nest the ul inside a div with class="menu" as seen below. </p>
+			<img src="images/example1.png">
+			<p>prettySticky is also set up to have a logo appear on the left side of the nav bar on scroll. In order for that to function, include a logo in the nav, nest the logo in its own div and give the logo a class of class="logo", as seen below.</p>
+			<img src="images/example2.png">
+		</div>
+	</section>
+
+	<section class="css" id="css">
+		<div class="container">
+			<h2>4. CSS</h2>
+			<p>The CSS document includes the styling for your nav menu and everythign you need for prettySticky.js to function, below are the default options you may choose to override in your own stylesheet.</p>
+			<p>To change the font-size of the list items at the top of the page:</p>
+			<img src="images/example3.png" alt="">
+			<p>To change the background color of the nav menu and the font-size of the list items on scroll:</p>
+			<img src="images/example4.png" alt="">
+			<p>To change the size of the logo in the nav menu:</p>
+			<img src="images/example5.png" alt="">
+			<p>To change the color of the anchor links in the nav menu:</p>
+			<img src="images/example6.png" alt="">
+			<p>To change the color of the anchor links on hover:</p>
+			<img src="images/example7.png" alt="">
+			<p>To change the color of the highlighted anchor links when scrolling:</p>
+			<img src="images/example8.png" alt="">
+		</div>
+	</section>
+
+	<section class="contact" id="contact">
+		<div class="container">
+			<h2>Contact</h2>
+			<a href="http://moyamiller.com">moyamiller.com</a>
+			<a href="https://github.com/MoyaMiller">Github</a>
+			<a href="https://twitter.com/moyamiller">Twitter</a>
+		</div>
+	</section>
+
+	<footer>
+		<div class="container">
+			<p>Moya Miller &#169;2014</p>
+		</div>	
+	</footer>
+
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+<script src="scripts/prettySticky.js"></script>
+<script src="scripts/jquery.smooth-scroll.min.js"></script>
+<script src="scripts/scripts.js"></script>
+</body>
+</html>
