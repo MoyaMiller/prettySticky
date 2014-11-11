@@ -106,7 +106,7 @@ To change the color of the highlighted anchor links when scrolling:
 
 ===
 ###Example
-If you want to see prettySticky in action - <a href="">visit the example site here.</a>
+If you want to see prettySticky in action - <a href="http://moyamiller.com/prettySticky/">visit the example site here.</a>
 
 ###Contact
 <a href="http://moyamiller.com">moyamiller.com</a>
